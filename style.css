@@ -96,8 +96,8 @@ section h2{
     justify-content: center;
 }
 .elemento{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color:var(--cor6);
     background-position: center center;
     margin: 30px;
