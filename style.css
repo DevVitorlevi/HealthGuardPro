@@ -42,16 +42,17 @@ header > p{
     margin-bottom: 20px;
 }
 header{
-    background-image: linear-gradient(to bottom,var(--cor4,),var(--cor5));
-    min-height: 150px;
+    background-image: linear-gradient(to bottom,var(--cor4,),var(--cor6));
+    min-height: 180px;
     text-align: center;
     padding-top: 40px;
     
 }
 nav{
-    background-color: var(--cor5);
+    background-color: var(--cor6);
     padding: 10px;
-    box-shadow: 0px 7px 9px rgba(54, 133, 236, 0.555);
+    box-shadow: 0px 7px 9px rgb(17, 2, 54);
+    text-align: center;
    
 }
 nav > a{
@@ -71,11 +72,11 @@ nav > a:hover{
 section{
 
     background-image: linear-gradient(45deg,#007BA7,#041344);
-    min-width:400px ;
+    min-width:220px ;
     margin:auto;
-    max-width:1000px ;
-    padding: 20px;
-    box-shadow: 0px 0px 10px #047fe45f;
+    max-width:800px ;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #054172b6;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius:10px;
 }
@@ -99,17 +100,14 @@ section h2{
     width: 150px;
     height: 150px;
     background-color:var(--cor6);
-    background-position: center center;
-    margin: 30px;
+    margin: 20px;
     margin-bottom: 20px;
     border-radius: 30%;
-    padding: 15px;
-    padding-bottom: 5px;
+    padding: 10px;
     cursor: pointer;    
 }
 .legenda{
     font-family: var(--fontd);
-    padding: 4px;
     color: white;
     text-align: center;
   
