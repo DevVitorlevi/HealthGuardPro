@@ -100,8 +100,8 @@ section h2{
     justify-content: center;
 }
 .elemento{
-    width: 115px;
-    height: 115px;
+    width: 100px;
+    height: 100px;
     background-color:var(--cor6);
     margin: 20px;
     margin-bottom: 20px;
@@ -121,6 +121,10 @@ section h2{
     box-shadow: 0px 0px 0px 5px #8d0ae491;
 }
 img{
-    height: 115px;
-    width: 115px;
+    height: 100px;
+    width: 100px;
+  
+}
+::-webkit-scrollbar{
+    display: none;
 }

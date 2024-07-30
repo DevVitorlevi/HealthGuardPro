@@ -1,0 +1,9 @@
+@media screen and (min-width:762px){
+    .elemento{
+        width: 120px;
+        height: 120px;
+    }
+}   img{
+    width: 100px;
+    height: 100px;
+}
